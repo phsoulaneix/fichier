@@ -21,7 +21,9 @@ par exemple :
 2) Reader/Writer
 --------------------
 Créer une classe qui implémente com.formation.ressource.TextFileHandler.
+
 La méthode readShowAndWriteFile lit le fichier passé en paramètre ligne par ligne et l’écrit dans le fichier cible.
+
 La méthode oneOverTwo permet d’écrire une ligne sur 2 du fichier passé en paramètre dans la sortie standard..
 
 3) Streams
@@ -35,5 +37,7 @@ La méthode createCountInputStream permet de compter le nombre de lectures effec
 4) Sérialisation
 --------------------
 Créer une classe qui implémente l’interface com.formation.ressource.ObjectSerlialization.
+
 La méthode storeObjectIntoFile permet de sérialiser un objet java dans un fichier binaire
+
 La méthode getObjectFromFile permet de lire un objet java sérialisé dans un fichier binaire
